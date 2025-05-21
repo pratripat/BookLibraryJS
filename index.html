@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Library</h1>
+    </header>
+    <div id="book-container"></div>
+
+    <form id="book-form", style="display: none; margin: 20px;">
+        <input type="text" id="book-title" placeholder="Book Title" required>
+        <input type="text" id="book-author" placeholder="Author" required>
+        <input type="text" id="book-pages" placeholder="Number of pages" required>
+        <label>
+            <input type="checkbox" id="book-read"> Read
+        </label>
+        <button type="submit">Add to Library</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

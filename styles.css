@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+}
+
+#book-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book-card {
+    display: inline-block;
+    border: 2px solid #333;
+    background-color: rgb(159, 155, 174);
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+
+/* Normalize the button */
+.add-book-button {
+    all: unset; /* Reset default button styles */
+    border: 2px solid #333;
+    background-color: rgb(159, 155, 174);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+
+.add-book-button:hover {
+    background-color: rgb(144, 141, 157);
+    transform: translateY(-2px);
+    transition: 0.3s;
+}
+
+.book-card:hover {
+    background-color: rgb(144, 141, 157);
+    transform: translateY(-2px);
+    transition: 0.3s;
+}
+
+#book-form input {
+    display:inline-table;
+    margin-bottom: 10px;
+    background-color: rgb(159, 155, 174);
+    border-radius: 5px;
+}
+
+.remove-book-button {
+  display: block; /* Makes it span full width */
+  width: 100%;
+  margin-top: 12px;
+  padding: 8px;
+  background-color: rgb(144, 141, 157);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-book-button:hover {
+  background-color: #333;
+}
+
+/* .add-book-button {
+    border: 2px solid #333;
+    background-color: rgb(159, 155, 174);
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+.add-book-button:hover {
+    background-color: rgb(144, 141, 157);
+    transform: translateY(-2px);
+    transition: 0.3s;
+} */
